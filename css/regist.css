@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+.cl {
+  overflow: hidden;
+  clear: both; }
+
+.i {
+  background: url(../images/sl_sitenav.png) left center no-repeat; }
+
+.header {
+  width: 100%;
+  height: 29px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD; }
+
+.regist {
+  width: 980px;
+  height: 30px;
+  margin: 0 auto; }
+
+.regist_l {
+  float: left;
+  width: 500px; }
+
+.registText {
+  float: left;
+  line-height: 30px;
+  margin-right: 5px;
+  font-size: 12px; }
+
+.registText a {
+  color: #0066ff; }
+
+.registText a:hover {
+  color: #C7012C; }
+
+.regist_r {
+  width: 400px;
+  height: 30px;
+  float: right;
+  font-size: 12px;
+  line-height: 30px; }
+
+.regist_r li {
+  float: left;
+  margin-right: 20px; }
+
+.regist_r li:hover {
+  color: #0066ff; }
+
+.myAccount {
+  float: left;
+  margin-right: 5px;
+  width: 60px;
+  height: 30px;
+  text-align: center; }
+
+.menu {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #EEEEEE;
+  border-bottom: none; }
+
+.icon3 {
+  background-position: -20px 0;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+.title {
+  display: block;
+  width: 60px;
+  height: 30px; }
+
+.sub {
+  position: absolute;
+  left: -1px;
+  top: 29px;
+  display: none;
+  width: 62px;
+  z-index: 10;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-top: none; }
+
+.sub li {
+  float: left;
+  width: 60px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px; }
+
+.sub li:hover {
+  background-color: yellow;
+  border-bottom: 1px dashed #999; }
+
+.menu:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-bottom: none; }
+
+.menu:hover .sub {
+  display: block;
+  border: 1px solid #000;
+  border-top: none;
+  box-sizing: border-box; }
+
+.container {
+  width: 980px;
+  height: 465px;
+  margin: 0 auto;
+  background: url(../images/login_bg.jpg) no-repeat center center;
+  position: relative;
+  border-bottom: 1px solid #999; }
+
+.logo {
+  width: 170px;
+  height: 100px;
+  position: absolute;
+  left: 15px;
+  top: 0; }
+
+.logo img {
+  width: 167px;
+  height: 95px; }
+
+.registBox {
+  width: 600px;
+  height: 430px;
+  background-color: white;
+  position: absolute;
+  top: 31px;
+  right: 0;
+  border: 2px solid #EEDFBB; }
+
+.rtitle {
+  width: 600px;
+  height: 30px;
+  margin-left: 5px;
+  font-size: 16px;
+  line-height: 30px; }
+
+.boxmain {
+  width: 598px;
+  height: 399px;
+  border: 1px solid #C7012C; }
+
+.tips {
+  width: 500px;
+  height: 24px;
+  line-height: 24px;
+  color: #FF0000;
+  font-size: 12px;
+  margin-left: 10px; }
+
+.tips b {
+  color: #999;
+  font-size: 14px; }
+
+.boxmain input {
+  border: none;
+  width: 238px;
+  height: 30px;
+  padding: 0 1px; }
+
+.list {
+  width: 100%;
+  height: 270px;
+  position: relative; }
+
+.list li {
+  width: 526px;
+  height: 30px;
+  margin: 15px 0;
+  line-height: 30px;
+  position: relative; }
+
+.list li:last-child {
+  position: relative; }
+
+.catycha {
+  position: absolute;
+  right: 135px;
+  top: 0;
+  width: 100px;
+  height: 30px;
+  color: orange;
+  font-size: 18px;
+  text-align: center;
+  background-color: #666; }
+
+.list span {
+  float: left;
+  width: 150px;
+  height: 30px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 30px; }
+
+.list i {
+  color: red; }
+
+.list input {
+  border: 0;
+  float: left;
+  vertical-align: middle;
+  padding: 1px;
+  height: 26px;
+  border: 1px solid #999;
+  display: block; }
+
+.span {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  right: -70px;
+  top: 0;
+  width: 200px;
+  text-align: center; }
+
+.deal {
+  width: 250px;
+  height: 24px;
+  margin: 10px auto;
+  background-color: gray;
+  font-size: 12px;
+  line-height: 24px; }
+
+#ckbox {
+  width: 16px;
+  height: 16px;
+  border: 0;
+  float: left;
+  margin: 4px 10px 0 0;
+  border: 1px solid #999;
+  border-radius: 5px; }
+
+.deal a:hover {
+  color: red; }
+
+.registpic a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: url(../images/register.png) 0 0 no-repeat;
+  margin: 0 auto; }
+
+.copyright {
+  width: 980px;
+  height: 88px;
+  margin: 0 auto; }
+
+.copyright_t {
+  width: 980px;
+  height: 20px;
+  margin-top: 5px; }
+
+.copyright_t li {
+  float: left;
+  margin-right: 20px;
+  font-size: 14px; }
+
+.copyright_t a {
+  color: #0066ff;
+  text-decoration: none; }
+
+.copyright_t a:hover {
+  text-decoration: underline; }
+
+.cbtext {
+  font-size: 12px;
+  line-height: 24px; }
